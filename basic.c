@@ -3,12 +3,12 @@
 
 int main()
 {
-
+    // pRINTING Statement
     printf("\nPrinting Statement : \n");
-    printf("Hello world!\n"); // pRINTING Statement
+    printf("Hello world!\n"); 
 
     printf("\nPlaceHolder,Data types,Variables : \n");
-
+    // Data types char,int,double;
     char name[] = "Sooraj"; // Data types char,int,double;
     int age = 23;
     double cgpa = 7.21;
@@ -22,7 +22,8 @@ int main()
     int mob;
     double height;
     printf("\nEnter ur course : \n");
-    scanf("%s",course);                     // User input
+     // User input
+    scanf("%s",course);                    
     printf("Enter ur Mob no :\n");
     scanf("%d",&mob);
     printf("Enter ur height :\n");
